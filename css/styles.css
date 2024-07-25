@@ -1,0 +1,106 @@
+header {
+    position: relative;
+    background: #5271FF;
+    overflow: hidden;
+    padding: 20px;
+    max-height: 225px;
+
+}
+
+.caixa{
+    position: relative;
+
+}
+.icone {
+    margin-left: 70px;
+    width: 200px;
+    left: 100px;
+    background: #ffff;
+    border-radius: 50%;
+}
+
+
+.titulo {
+    position: relative;
+    left: 40%;
+    bottom: 200px;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: "Outfit", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.descricao {
+    position: relative;
+    margin-left: 350px;
+    bottom: 150px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Outfit", Arial, sans-serif;
+    font-style: normal;
+    word-wrap: break-word;
+    background-color: #ff0000;
+}
+
+.social {
+    display: grid;
+    word-wrap: break-word;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    height: 690px;
+    font-family: "Outfit", Arial, sans-serif;
+    background-color: gray;
+}
+
+.box {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.box:nth-child(1) {
+    background: linear-gradient(to bottom, #ff0000, #922424); 
+}
+
+.box:nth-child(2) {
+    background: linear-gradient(to bottom, #FFCC07, #AD08F4);
+}
+
+.box:nth-child(3) {
+    background: linear-gradient(to bottom, #3b5998, #182541); 
+}
+
+.box:nth-child(4) {
+    background: linear-gradient(to bottom, #0077b5, #153c52);
+}
+
+.box:hover {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+footer {
+
+    text-align: center;
+    background: black;
+    padding: 15px;
+    position: relative;
+    overflow-x: hidden;
+}
+.copyrigth{
+    font-weight: 600;
+    font-family: "Outfit", Arial, sans-serif;
+    font-size: 13px;
+    color: #BBBBBB;
+}
